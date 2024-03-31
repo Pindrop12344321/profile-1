@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile.css" />
+    <title>Document</title>
+    <style>
+      @media only screen and (min-width: 768px) {
+        .nav_container {
+          display: flex;
+          justify-content: space-around;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="complete_animation">
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+    <div class="complete_body">
+      <!--  /*-------------Box_1 starts from here---------------*/ -->
+
+      <div class="banner box_1">
+        <div class="p_photo_div">
+          <img
+            class="p_photo_img"
+            src="https://images.pexels.com/photos/87452/flowers-background-butterflies-beautiful-87452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="profile photo"
+          />
+        </div>
+        <div class="p_name">
+          <h2 id="demo">How are you</h2>
+        </div>
+      </div>
+      <!-- /*********Box_1 ends here********/ -->
+
+      <div class="box_2">
+        <div class="nav_container">
+          <div onclick="helo()" class="nav1 nav_element">helo</div>
+          <div onclick="hi()" class="nav2 nav_element">hi</div>
+          <div onclick="tensor()" class="nav3 nav_element">tensor</div>
+          <div onclick="flow()" class="nav4 nav_element">flow</div>
+          <div onclick="down()" class="nav5 nav_element">down</div>
+        </div>
+        <div class="content_part">
+          <div class="content">
+            <p id="content"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- /*********************Box_2 ends here********************/ -->
+    </div>
+
+    <script src="profile.js"></script>
+  </body>
+</html>
